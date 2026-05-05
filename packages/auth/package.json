@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@oneroof/db": "workspace:*",
-    "@oneroof/shared": "workspace:*"
+    "@oneroof/shared": "workspace:*",
+    "drizzle-orm": "^0.36.4"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
