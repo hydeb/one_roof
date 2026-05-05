@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* One Roof brand tokens — preliminary; will refine with brand pass in Phase 2 */
+  --color-brand-50:  #f7f4ee;
+  --color-brand-100: #ece4d3;
+  --color-brand-200: #d6c4a0;
+  --color-brand-300: #b89c6a;
+  --color-brand-400: #9c7a44;
+  --color-brand-500: #7d5e2f;   /* primary — warm trade-belt brown */
+  --color-brand-600: #644a23;
+  --color-brand-700: #4b371a;
+  --color-brand-800: #322412;
+  --color-brand-900: #1a1208;
+
+  --color-roof-red:  #b03a2e;   /* accent — roof tile */
+  --color-ink:       #1a1a1a;
+  --color-paper:     #fbfaf6;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: ui-serif, Georgia, "Times New Roman", serif;
+}
+
+html, body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
